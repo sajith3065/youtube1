@@ -1,0 +1,162 @@
+/* Thumbnail Image */
+.thumbnail{
+    width: 100%;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+/* Total Video grids */
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 25px;
+    padding-left: 15px;
+    padding-right: 10px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    
+}
+
+
+
+/* Profile Picture */
+.profile-picture{
+    width: 40px;
+    border-radius: 50px;
+}
+
+
+/* Video Title */
+.video-title{
+  margin-top: 0px;
+ font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+    margin-bottom: 10px;
+  
+}
+
+
+/* Thumbanil Image-row */
+.thumbnail-row{
+    margin-bottom: 12px;
+    position: relative;
+}
+
+/* video time */
+.video-time{
+    background-color: rgba(0, 0, 0);
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 3px;
+    border-radius: 4px;
+   padding: 2px 5px;
+   font-size: 14px;
+   font-family: Roboto, Arial;
+
+}
+
+
+/* Video-Author name & Video Status */
+.video-author,.video-status{
+    color: rgb(90, 88, 88);
+    font-size: 14px;
+}
+
+
+/* Video author name */
+.video-author{
+    margin-bottom: 4px;
+}
+
+/* Video Information - Grid */
+.video-info-grid{
+display: grid;
+grid-template-columns:50px 1fr;
+cursor: pointer;
+}
+
+/* ----------------------------- */
+
+/* shorts icon */
+.shorts{
+margin-bottom: 10px;
+display: flex;
+justify-content: space-between;
+
+
+}
+
+
+.shorts-img-heading{
+    display: flex;
+    align-items: center;
+}
+
+.shorts img{
+    width: 50px;
+    height: 50px;
+   
+}
+
+.shorts h2{
+    font-family: Roboto,Arial;
+    font-size: 20px;
+}
+
+.close-button{
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* Shorts total */
+.shorts-preview{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+margin-left: 10px;
+column-gap: 10px;
+margin-bottom: 50px;
+cursor: pointer;
+}
+
+
+/* shorts all informations */
+.shorts-info-grid{
+    display: grid;
+    grid-template-columns: 1fr 5px;
+    width: 215px;
+}
+
+/* shorts image */
+.shorts-image{
+height: 380px;
+width: 215;
+border-radius: 8px;
+}
+
+/* 3 dots */
+.three-dots{
+width: 10px;
+height: 30px;
+
+}
+
+/* paragraph */
+.shorts-info{
+    margin-top: 0px;
+    font-weight: 500;
+     font-size: 16px;
+     line-height: 22px;
+       /* margin-bottom: 20px; */
+}
+
+/* shorts info-views */
+.shorts-status{
+    color: rgb(90, 88, 88);
+    font-size: 14px;
+    margin-top: 5px;
+}
